@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-client-core-2.7.2.jar&lt;org.apache.hadoop.mapred(Mapper.class[Mapper" modifiers="1537" timestamp="1453767620000"/>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/common\/lib\/commons-math3-3.1.1.jar&lt;org.apache.commons.math3.optimization.direct(MultivariateFunctionMappingAdapter$Mapper.class[Mapper" modifiers="1546" timestamp="1453767620000"/>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-client-core-2.7.2.jar&lt;org.apache.hadoop.mapred(MapReduceBase.class[MapReduceBase" modifiers="33" timestamp="1453767620000"/>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-client-core-2.7.2.jar&lt;org.apache.hadoop.mapreduce(ReduceContext.class[ReduceContext" modifiers="1537" timestamp="1453767620000"/>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-client-core-2.7.2.jar&lt;org.apache.hadoop.mapred(Reducer.class[Reducer" modifiers="1537" timestamp="1453767620000"/>
+    <typeInfo handle="=localhadoop/D:\/program\/hadoop-2.7.2\/share\/hadoop\/common\/lib\/guava-11.0.2.jar&lt;com.google.common.collect(Lists$Partition.class[Partition" modifiers="10" timestamp="1453767620000"/>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-client-core-2.7.2.jar&lt;org.apache.hadoop.mapreduce(Mapper.class[Mapper" modifiers="33" timestamp="1453767620000"/>
+    <typeInfo handle="=hadoopstu/D:\/program\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-client-core-2.7.2.jar&lt;org.apache.hadoop.mapreduce(Reducer.class[Reducer" modifiers="33" timestamp="1453767620000"/>
+</typeInfoHistroy>

@@ -1,0 +1,10 @@
+package test;
+
+public class Someclass {
+	static {
+		System.out.println(1);
+	}
+	public Someclass() {
+		// TODO Auto-generated constructor stub
+	}
+}
