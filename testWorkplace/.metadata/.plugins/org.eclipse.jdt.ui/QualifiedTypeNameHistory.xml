@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.util.jar.JarEntry"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.mapred.JobConf"/>
-    <fullyQualifiedTypeName name="ccyy.ToJar"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapred.MapReduceBase"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapred.Mapper"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.yarn.server.resourcemanager.scheduler.capacity.CapacitySchedulerContext"/>
@@ -28,7 +24,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
-    <fullyQualifiedTypeName name="java.net.URI"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.util.Progressable"/>
@@ -39,7 +34,6 @@
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="dataunique.DedupMapper"/>
     <fullyQualifiedTypeName name="dataunique.DedupReducer"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Partitioner"/>
     <fullyQualifiedTypeName name="mySort.MySortMapper"/>
@@ -52,12 +46,18 @@
     <fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.Line"/>
     <fullyQualifiedTypeName name="com.sun.xml.bind.v2.schemagen.xmlschema.List"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="stjion.STjoinMapper"/>
     <fullyQualifiedTypeName name="stjion.STjoinReducer"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="test.Someclass"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="clinit.Main"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
 </qualifiedTypeNameHistroy>
