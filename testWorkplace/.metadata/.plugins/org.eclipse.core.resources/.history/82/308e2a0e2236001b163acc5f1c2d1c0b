@@ -1,5 +1,0 @@
-package test;
-
-public class Someclass {
-	System.out.print(1);
-}

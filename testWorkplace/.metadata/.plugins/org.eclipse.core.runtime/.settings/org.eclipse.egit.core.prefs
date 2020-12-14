@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\hadoop\\.git;
-GitRepositoriesView.GitDirectories.relative=D\:\\hadoop\\.git;
+GitRepositoriesView.GitDirectories=D\:\\hadoop\\.git;D\:\\java\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\hadoop\\.git;D\:\\java\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

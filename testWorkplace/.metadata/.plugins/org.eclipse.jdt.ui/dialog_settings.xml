@@ -4,7 +4,7 @@
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="true" key="ProjectSelectionDialog.show_all"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
-	<item value="D:\Program Files\Java\jdk1.8.0_181\jre\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\15016\Downloads\spring-5.3.2-dist\spring-framework-5.3.2\libs" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
@@ -86,6 +86,9 @@
 		<item value="381" key="DIALOG_HEIGHT"/>
 		<item value="13" key="DIALOG_X_ORIGIN"/>
 		<item value="168" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="0" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
