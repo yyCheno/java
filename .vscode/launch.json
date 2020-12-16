@@ -1,0 +1,109 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Jobsubmitter<localhadoop>",
+            "request": "launch",
+            "mainClass": "ccyytest.Jobsubmitter",
+            "projectName": "localhadoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Jobsubmitter<localhadoop>(1)",
+            "request": "launch",
+            "mainClass": "dataunique.Jobsubmitter",
+            "projectName": "localhadoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Jobsubmitter<localhadoop>(2)",
+            "request": "launch",
+            "mainClass": "mySort.Jobsubmitter",
+            "projectName": "localhadoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Jobsubmitter<localhadoop>(3)",
+            "request": "launch",
+            "mainClass": "stjion.Jobsubmitter",
+            "projectName": "localhadoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<myjava>",
+            "request": "launch",
+            "mainClass": "area.Main",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sdaf<myjava>",
+            "request": "launch",
+            "mainClass": "asbdjk.Sdaf",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<myjava>(1)",
+            "request": "launch",
+            "mainClass": "classlodertest.Main",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<myjava>(2)",
+            "request": "launch",
+            "mainClass": "clinit.Main",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Headdemo<myjava>",
+            "request": "launch",
+            "mainClass": "heapdemo.Headdemo",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Scalartest<myjava>",
+            "request": "launch",
+            "mainClass": "scalar.Scalartest",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<myjava>(3)",
+            "request": "launch",
+            "mainClass": "test.Main",
+            "projectName": "myjava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapOOM",
+            "request": "launch",
+            "mainClass": "HeapOOM"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringTestP",
+            "request": "launch",
+            "mainClass": "StringTestP"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hello1",
+            "request": "launch",
+            "mainClass": "hello1"
+        }
+    ]
+}
