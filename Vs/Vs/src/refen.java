@@ -1,7 +1,5 @@
 import java.util.*;
 
-import jdk.javadoc.internal.doclets.toolkit.taglets.SystemPropertyTaglet;
-
 public class refen {
     public static void main(String[] args) {
         List<Integer> a = new LinkedList<Integer>();
@@ -14,3 +12,4 @@ public class refen {
        }
     }   
 }
+ 

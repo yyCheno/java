@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mysort",
+            "request": "launch",
+            "mainClass": "mysort",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Launch refen",
             "request": "launch",
             "mainClass": "refen",

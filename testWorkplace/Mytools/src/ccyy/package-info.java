@@ -1,16 +1,16 @@
 /**
  * @Title: package-info.java
- * @Package clinit
+ * @Package ccyy
  * @Description: TODO
  * @author: ccyy
- * @date 2020年12月9日
+ * @date 2021年1月15日
  * @version V1.0
  */
 /**
  * @ClassName: package-info
  * @Description: TODO
  * @author: ccyy
- * @date 2020年12月9日
+ * @date 2021年1月15日
  *
  */
-package clinit;
+package ccyy;
