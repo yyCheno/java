@@ -1,9 +1,9 @@
-import ccyy.myTools;
+
 public class mysort {
     public static void main(String[] args) {
         int[] arr = {11,44,23,67,88,65,34,48,9,12};
-        System.out.println( myTools.toString(arr));
-        mergesort(arr);
+        System.out.println( "快排：");
+        quicksort(arr);
         for (int i : arr) {
             System.out.print(i+" ");
         }
@@ -54,5 +54,34 @@ public class mysort {
         for(int t =0;t<i;t++){
             arr[low+t] = tmp[t];
         }
+    }
+    public static void quicksort(int[] arr) {
+        quicksort(arr, 0, arr.length-1);
+    }
+    public static void quicksort(int[] arr,int low,int high){
+        if(low>high) return ;
+       int i = low;
+        int j = high;
+        int temp = arr[low];
+        while(true){
+            if(i>=j) break;
+            while(true){
+                if(temp>arr[j]||i>=j) break;
+                j--;
+            }
+            while(true){
+                if(temp<arr[i]||i>=j) break;
+                i++;
+            }
+            if(i<j){
+                int tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+        }
+        arr[low] = arr[i];
+        arr[i] = temp;
+        quicksort(arr, low, i-1);
+        quicksort(arr, i+1, high);
     }
 }

@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mycalsslodartest",
+            "request": "launch",
+            "mainClass": "mycalsslodartest"
+        },
+        {
+            "type": "java",
             "name": "Launch mysort",
             "request": "launch",
             "mainClass": "mysort",
