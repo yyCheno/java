@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="findMaxTemp.FindMaxTempReducer"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="sun.print.PSPrinterJob.PluginPrinter"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.classification.InterfaceAudience.Public"/>
-    <fullyQualifiedTypeName name="findMaxTemp.Jobsubmitter"/>
-    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
-    <fullyQualifiedTypeName name="findMaxTemp.FindMaxTempMapper"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.io.DoubleWritable"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
     <fullyQualifiedTypeName name="myhdfs.MyFileSystem"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataInputStream"/>
@@ -57,7 +47,17 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="asbdjk.as"/>
     <fullyQualifiedTypeName name="java.lang.AssertionError"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="segregation.A"/>
+    <fullyQualifiedTypeName name="segregation.B"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="dependecyInversion.Receiver"/>
+    <fullyQualifiedTypeName name="dependecyInversion.Persion"/>
+    <fullyQualifiedTypeName name="dependecyInversion.Emain"/>
+    <fullyQualifiedTypeName name="liskov.A"/>
+    <fullyQualifiedTypeName name="liskov.B"/>
+    <fullyQualifiedTypeName name="segregation.interface1"/>
+    <fullyQualifiedTypeName name="ocp.Shape"/>
+    <fullyQualifiedTypeName name="ocp.Rectangle"/>
 </qualifiedTypeNameHistroy>
