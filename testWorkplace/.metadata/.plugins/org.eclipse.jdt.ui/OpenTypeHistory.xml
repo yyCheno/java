@@ -16,9 +16,13 @@
     <typeInfo handle="=myjava/src&lt;factor{Pizza.java[Pizza" modifiers="1025" timestamp="1610951329388"/>
     <typeInfo handle="=myjava/src&lt;builder{HouseBuilder.java[HouseBuilder" modifiers="1025" timestamp="1611035968290"/>
     <typeInfo handle="=myjava/src&lt;adapter.classadapter{Voltage5.java[Voltage5" modifiers="513" timestamp="1611038122838"/>
-    <typeInfo handle="=myjava/src&lt;adapter.classadapter{Voltage220.java[Voltage220" modifiers="1" timestamp="1611038076311"/>
-    <typeInfo handle="=myjava/src&lt;adapter.interfaceadapter{interface4.java[interface4" modifiers="513" timestamp="1611039642906"/>
+    <typeInfo handle="=myjava/src&lt;adapter.classadapter{Voltage220.java[Voltage220" modifiers="1" timestamp="1611038535581"/>
+    <typeInfo handle="=myjava/src&lt;adapter.interfaceadapter{interface4.java[interface4" modifiers="513" timestamp="1611039713382"/>
     <typeInfo handle="=myjava/D:\/Program Files\/Java\/jdk1.8.0_181\/jre\/lib\/rt.jar&lt;org.omg.PortableInterceptor(InterceptorOperations.class[InterceptorOperations" modifiers="1537" timestamp="1603370961566"/>
     <typeInfo handle="=myjava/src&lt;bridge{Brand.java[Brand" modifiers="513" timestamp="1611040693449"/>
     <typeInfo handle="=myjava/src&lt;bridge{Phone.java[Phone" modifiers="1025" timestamp="1611040943398"/>
+    <typeInfo handle="=myjava/src&lt;composite{OrganizationCompoenet.java[OrganizationCompoenet" modifiers="1025" timestamp="1611122387165"/>
+    <typeInfo handle="=myjava/src&lt;flyweight{WebSite.java[WebSite" modifiers="1025" timestamp="1611126228177"/>
+    <typeInfo handle="=myjava/D:\/Program Files\/Java\/jdk1.8.0_181\/jre\/lib\/rt.jar&lt;java.util.function(IntToDoubleFunction.class[IntToDoubleFunction" modifiers="1537" timestamp="1603370961566"/>
+    <typeInfo handle="=myjava/src&lt;proxy{ITeacherDao.java[ITeacherDao" modifiers="513" timestamp="1611127554485"/>
 </typeInfoHistroy>
