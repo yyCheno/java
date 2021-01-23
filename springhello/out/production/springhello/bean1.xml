@@ -3,5 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
-    <bean id ="user" class="ccyy.User"></bean>
+    <bean id ="user" class="ccyy.User">
+        <property name="names" value="25315"></property>
+    </bean>
 </beans>
