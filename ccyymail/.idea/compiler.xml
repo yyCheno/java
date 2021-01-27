@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ccyymail-common" />
+        <module name="ccyymail-order" />
+        <module name="ccyymail-member" />
+        <module name="ccyymail-product" />
+        <module name="renren-fast" />
+        <module name="ccyymail-geteway" />
+        <module name="ccyymail-ware" />
+        <module name="ccyymail-coupon" />
+        <module name="renren-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ccyymail" target="1.8" />
+      <module name="ccyymail-common" target="1.8" />
+      <module name="ccyymail-coupon" target="1.8" />
+      <module name="ccyymail-geteway" target="1.8" />
+      <module name="ccyymail-member" target="1.8" />
+      <module name="ccyymail-order" target="1.8" />
+      <module name="ccyymail-product" target="1.8" />
+      <module name="ccyymail-ware" target="1.8" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ccyymail-common" options="-parameters" />
+      <module name="ccyymail-coupon" options="-parameters" />
+      <module name="ccyymail-geteway" options="-parameters" />
+      <module name="ccyymail-member" options="-parameters" />
+      <module name="ccyymail-order" options="-parameters" />
+      <module name="ccyymail-product" options="-parameters" />
+      <module name="ccyymail-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

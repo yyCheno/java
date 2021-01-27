@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ccyymail</groupId>
+	<artifactId>ccyymail</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ccyymail</name>
+	<description>聚合</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>ccyymail-coupon</module>
+		<module>ccyymail-member</module>
+		<module>ccyymail-order</module>
+		<module>ccyymail-product</module>
+		<module>ccyymail-ware</module>
+		<module>renren-fast</module>
+		<module>ccyymail-geteway</module>
+		<module>renren-generator</module>
+		<module>ccyymail-common</module>
+	</modules>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ccyymail.iml" filepath="$PROJECT_DIR$/ccyymail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-common/ccyymail-common.iml" filepath="$PROJECT_DIR$/ccyymail-common/ccyymail-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-coupon/ccyymail-coupon.iml" filepath="$PROJECT_DIR$/ccyymail-coupon/ccyymail-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-geteway/ccyymail-geteway.iml" filepath="$PROJECT_DIR$/ccyymail-geteway/ccyymail-geteway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-member/ccyymail-member.iml" filepath="$PROJECT_DIR$/ccyymail-member/ccyymail-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-order/ccyymail-order.iml" filepath="$PROJECT_DIR$/ccyymail-order/ccyymail-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-product/ccyymail-product.iml" filepath="$PROJECT_DIR$/ccyymail-product/ccyymail-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccyymail-ware/ccyymail-ware.iml" filepath="$PROJECT_DIR$/ccyymail-ware/ccyymail-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+    </modules>
+  </component>
+</project>
