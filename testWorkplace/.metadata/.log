@@ -9430,3 +9430,706 @@ Binding(ALT+CTRL+/,
 
 !ENTRY org.eclipse.jface.text 2 0 2021-01-22 14:15:37.672
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2021-02-19 21:19:31.800 -----------------------------------------------
+eclipse.buildId=16.0.0.CI-004
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2021-02-19 21:20:28.314
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-19 21:20:28.314
+!MESSAGE A conflict occurred for CTRL+SHIFT+Z:
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.eclipse.angularjs.ui.navigate.open.angular.element,Open Angular Element,
+		Opens an Angular Element in a JavaScript editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a0464ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.skyway.core.ui.generate,Generate,
+		Generate with Skyway,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e2f409f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-19 21:20:28.314
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33cdd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9a3db1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-19 21:20:28.314
+!MESSAGE A conflict occurred for CTRL+SHIFT+V:
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(net.jeeeyul.pdetools.clipboard.pasteHistory,Paste Content in History,
+		,
+		Category(net.jeeeyul.pdetools.category,PDE Tools,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2028ecf4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.command.OpenFromClipboard,Open from Clipboard,
+		Opens a Java element or a Java stack trace from clipboard,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4276bd6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.skyway.core.ui.validate,Validate,
+		Run Skyway Validation,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d5b4a5b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2021-02-19 21:20:37.575
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 4 2021-02-19 21:20:39.985
+!MESSAGE Plug-in 'com.genuitec.eclipse.code' contributed an invalid Menu Extension (Path: 'help/com.eclipse.genuitec.codemixgroup' is invalid): com.genuitec.codemix.upgradelicenseaction
+
+!ENTRY org.eclipse.ui 4 4 2021-02-19 21:20:39.986
+!MESSAGE Plug-in 'com.genuitec.eclipse.code' contributed an invalid Menu Extension (Path: 'help/com.eclipse.genuitec.codemixgroup' is invalid): com.genuitec.codemix.openforumaction
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-19 21:20:53.349
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\15016'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-02-19 21:20:55.477
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.modeling.ui.OverviewView' id and the 'JSF Flow Overview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:26.491
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLaunchAdapter.getLaunchable(JBossLaunchAdapter.java:84)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.getChildFragments(OptionalClientWizardFragment.java:113)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:341)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:345)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.getAllWizardFragments(TaskWizard.java:329)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addPages(TaskWizard.java:359)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.updatePages(TaskWizard.java:406)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage$1.run(TaskWizardPage.java:129)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage.update(TaskWizardPage.java:126)
+	at org.eclipse.wst.server.ui.internal.wizard.page.NewServerComposite.updateTaskModel(NewServerComposite.java:525)
+	at org.eclipse.wst.server.ui.internal.wizard.page.NewServerComposite$6.serverSelected(NewServerComposite.java:381)
+	at org.eclipse.wst.server.ui.internal.viewers.ServerComposite$3.selectionChanged(ServerComposite.java:142)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:155)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2182)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1719)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1084)
+	at org.eclipse.wst.server.ui.internal.viewers.ServerComposite$4$1.run(ServerComposite.java:202)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:26.493
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:32.650
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at com.genuitec.eclipse.server.core.internal.GenuitecAppServerLaunchableAdapterDelegate.getLaunchable(GenuitecAppServerLaunchableAdapterDelegate.java:43)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.getChildFragments(OptionalClientWizardFragment.java:113)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:341)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:345)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.getAllWizardFragments(TaskWizard.java:329)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:179)
+	at org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard.performFinish(RunOnServerWizard.java:243)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:32.650
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:32.651
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLaunchAdapter.getLaunchable(JBossLaunchAdapter.java:84)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.getChildFragments(OptionalClientWizardFragment.java:113)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:341)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:345)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.getAllWizardFragments(TaskWizard.java:329)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:179)
+	at org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard.performFinish(RunOnServerWizard.java:243)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:32.652
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:32.693
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at com.genuitec.eclipse.server.core.internal.GenuitecAppServerLaunchableAdapterDelegate.getLaunchable(GenuitecAppServerLaunchableAdapterDelegate.java:43)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.getChildFragments(OptionalClientWizardFragment.java:113)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:341)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:345)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.getAllWizardFragments(TaskWizard.java:329)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addPages(TaskWizard.java:359)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.updatePages(TaskWizard.java:406)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage$1.run(TaskWizardPage.java:129)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage.update(TaskWizardPage.java:126)
+	at org.eclipse.wst.server.ui.internal.wizard.page.ModifyModulesComposite.updateTaskModel(ModifyModulesComposite.java:852)
+	at org.eclipse.wst.server.ui.internal.wizard.page.ModifyModulesComposite.setServer(ModifyModulesComposite.java:285)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.ModifyModulesWizardFragment.updateModules(ModifyModulesWizardFragment.java:83)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.ModifyModulesWizardFragment.enter(ModifyModulesWizardFragment.java:72)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2$1.run(TaskWizard.java:189)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:61)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:239)
+	at org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard.performFinish(RunOnServerWizard.java:243)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:32.694
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:32.694
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLaunchAdapter.getLaunchable(JBossLaunchAdapter.java:84)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.getChildFragments(OptionalClientWizardFragment.java:113)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:341)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addSubWizardFragments(TaskWizard.java:345)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.getAllWizardFragments(TaskWizard.java:329)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.addPages(TaskWizard.java:359)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.updatePages(TaskWizard.java:406)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage$1.run(TaskWizardPage.java:129)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizardPage.update(TaskWizardPage.java:126)
+	at org.eclipse.wst.server.ui.internal.wizard.page.ModifyModulesComposite.updateTaskModel(ModifyModulesComposite.java:852)
+	at org.eclipse.wst.server.ui.internal.wizard.page.ModifyModulesComposite.setServer(ModifyModulesComposite.java:285)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.ModifyModulesWizardFragment.updateModules(ModifyModulesWizardFragment.java:83)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.ModifyModulesWizardFragment.enter(ModifyModulesWizardFragment.java:72)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2$1.run(TaskWizard.java:189)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:61)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:239)
+	at org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard.performFinish(RunOnServerWizard.java:243)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:32.695
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:32.704
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at com.genuitec.eclipse.server.core.internal.GenuitecAppServerLaunchableAdapterDelegate.getLaunchable(GenuitecAppServerLaunchableAdapterDelegate.java:43)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.enter(OptionalClientWizardFragment.java:109)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2$1.run(TaskWizard.java:189)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:61)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:239)
+	at org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard.performFinish(RunOnServerWizard.java:243)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:32.705
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 4 2021-02-19 21:25:32.705
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:197)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getModuleRootURL(TomcatServer.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLaunchAdapter.getLaunchable(JBossLaunchAdapter.java:84)
+	at org.eclipse.wst.server.core.internal.LaunchableAdapter.getLaunchable(LaunchableAdapter.java:76)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.getLaunchableAdapter(ServerUIPlugin.java:1283)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.updateClients(OptionalClientWizardFragment.java:65)
+	at org.eclipse.wst.server.ui.internal.wizard.fragment.OptionalClientWizardFragment.enter(OptionalClientWizardFragment.java:109)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2$1.run(TaskWizard.java:189)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:61)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:239)
+	at org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard.performFinish(RunOnServerWizard.java:243)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.getServer(RunOnServerActionDelegate.java:137)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:301)
+	at org.eclipse.wst.server.ui.internal.actions.RunOnServerActionDelegate.run(RunOnServerActionDelegate.java:770)
+	at org.eclipse.wst.server.ui.internal.ServerLaunchShortcut.launch(ServerLaunchShortcut.java:41)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:138)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1260)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2021-02-19 21:25:32.706
+!MESSAGE The Tomcat server configuration at \Servers\MyEclipse Tomcat v8.5-config is missing. Check the server for errors.
+
+!ENTRY com.genuitec.eclipse.server.core 4 0 2021-02-19 21:28:12.722
+!MESSAGE Several ports (8005, 8080, 8009) required by MyEclipse Tomcat v8.5 are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jface 2 0 2021-02-19 21:28:28.581
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-19 21:28:28.581
+!MESSAGE A conflict occurred for ALT+CTRL+/:
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@344b88c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.hippieCompletion,Word Completion,
+		Context insensitive completion,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@722f4f46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,zh,,system)
