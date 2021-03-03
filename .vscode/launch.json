@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mapkey",
+            "request": "launch",
+            "mainClass": "mapkey"
+        },
+        {
+            "type": "java",
             "name": "Launch mycalsslodartest",
             "request": "launch",
             "mainClass": "mycalsslodartest"
